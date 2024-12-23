@@ -1,5 +1,6 @@
 import styles from './ProjectsStyles.module.css';
 import calculatorImg from '../../assets/gpa-calculator.png';
+import loginPgImg from '../../assets/login-page.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -12,6 +13,12 @@ function Projects() {
           link="https://github.com/dhruvimistry/GTU-Calculator"
           h3="SPI & CPI Calculator"
           p="Grade Calculator"
+        />
+        <ProjectCard
+          src={loginPgImg}
+          link="https://github.com/dhruvimistry/Login-Page"
+          h3="Login Page"
+          p="With Password Strength check"
         />
       </div>
     </section>
