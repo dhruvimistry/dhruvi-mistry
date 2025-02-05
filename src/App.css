@@ -6,6 +6,7 @@
   --text-color: #222;
   --form-text-color: #555;
   --footer-text-color: #888;
+  
 }
 
 [data-theme='dark'] {
@@ -34,6 +35,7 @@ body {
 h1,
 h2,
 h3,
+h5,
 p {
   color: var(--text-color);
   margin: 0;
@@ -42,6 +44,7 @@ p {
 
 h2,
 h3,
+h5,
 p {
   font-family: 'Poppins', monospace;
 }

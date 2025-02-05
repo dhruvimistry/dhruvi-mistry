@@ -1,0 +1,86 @@
+.title {
+    font-family: 'Rubik', sans-serif;
+    color: var(--text-color);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.date{
+    font-size: 18px;
+    color: var(--text-color);
+}
+.vertical-timeline-element-title {
+    font-family: 'Poppins', monospace;
+    font-size: 18px;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.vertical-timeline-element-subtitle {
+    font-family: 'Poppins', monospace;
+    font-size: 16px;
+    color: var(--form-text-color);
+    margin-bottom: 5px;
+}
+
+.vertical-timeline-element-extra {
+    font-family: 'Poppins', monospace;
+    font-size: 14px;
+    color: var(--footer-text-color);
+}
+
+.vertical-timeline-element {
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.vertical-timeline-element:hover {
+    background-color: rgba(72, 128, 202, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.vertical-timeline-element-icon {
+    background-color: var(--btn-color);
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-timeline-element-icon img {
+    width: 20px;
+    height: 20px;
+}
+
+@media (min-width: 800px) {
+    .vertical-timeline-element-title {
+        font-size: 22px;
+    }
+
+    .vertical-timeline-element-subtitle {
+        font-size: 18px;
+    }
+
+    .vertical-timeline-element-extra {
+        font-size: 16px;
+    }
+    }
+
+    @media (min-width: 1400px) {
+    .vertical-timeline-element-title {
+        font-size: 24px;
+    }
+
+    .vertical-timeline-element-subtitle {
+        font-size: 20px;
+    }
+
+    .vertical-timeline-element-extra {
+        font-size: 18px;
+    }
+}
+  
