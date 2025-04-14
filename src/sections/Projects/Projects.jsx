@@ -1,6 +1,7 @@
 import styles from './ProjectsStyles.module.css';
 import calculatorImg from '../../assets/gpa-calculator.png';
 import loginPgImg from '../../assets/login-page.png';
+import serveTogetherImg from '../../assets/serve-together.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -19,6 +20,12 @@ function Projects() {
           link="https://github.com/dhruvimistry/Login-Page"
           h3="Login Page"
           p="With Password Strength check"
+        />
+        <ProjectCard
+          src={serveTogetherImg}
+          link="https://github.com/dhruvimistry/Serve-Together"
+          h3="Serve Together"
+          p="Connecting Volunteers and NGOs"
         />
       </div>
     </section>

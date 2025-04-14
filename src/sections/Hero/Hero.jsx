@@ -8,7 +8,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/Dhruvi CV x.pdf';
+import CV from '../../assets/Dhruvi CV_2 x.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
@@ -40,7 +40,7 @@ function Hero() {
           <br />
           Mistry
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>Frontend Engineer</h2>
         <span>
           <a href="https://x.com/_dhruvi__xxvi" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
