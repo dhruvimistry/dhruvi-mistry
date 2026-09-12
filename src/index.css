@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap");
+@import "tailwindcss";
+@theme {
+  --font-display: "Space Grotesk", sans-serif;
+  --font-sans: "Manrope", sans-serif;
+  --font-mono: "DM Mono", monospace;
+  --color-canvas: var(--canvas);
+  --color-panel: var(--panel);
+  --color-panel-raised: var(--panel-raised);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-signal: var(--signal);
+  --color-signal-strong: var(--signal-strong);
+  --color-signal-soft: var(--signal-soft);
+  --shadow-panel: 0 18px 44px rgb(0 0 0 / 28%);
+}
+@layer base {
+  :root {
+    --canvas: #0b1211;
+    --panel: #111c1a;
+    --panel-raised: #172523;
+    --ink: #edf5f2;
+    --muted: #a8bcb6;
+    --line: #29413c;
+    --signal: #47d9ca;
+    --signal-strong: #8beddf;
+    --signal-soft: #143b36;
+  }
+  [data-theme="light"] {
+    --canvas: #f7f8f6;
+    --panel: #ffffff;
+    --panel-raised: #f0f3ef;
+    --ink: #10211f;
+    --muted: #59706b;
+    --line: #d7dfdb;
+    --signal: #007d75;
+    --signal-strong: #005e58;
+    --signal-soft: #d8f1ed;
+    --color-canvas: #f7f8f6;
+    --color-panel: #ffffff;
+    --color-panel-raised: #f0f3ef;
+    --color-ink: #10211f;
+    --color-muted: #59706b;
+    --color-line: #d7dfdb;
+    --color-signal: #007d75;
+    --color-signal-strong: #005e58;
+    --color-signal-soft: #d8f1ed;
+  }
+}
+@layer base {
+  * {
+    @apply box-border;
+  }
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply m-0 min-w-80 bg-canvas font-sans text-ink antialiased;
+  }
+  button {
+    @apply cursor-pointer;
+  }
+}
