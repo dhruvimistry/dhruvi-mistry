@@ -6,7 +6,7 @@ import Qualifications from "./sections/Qualifications/Qualifications";
 import Skills from "./sections/Skills/Skills";
 function App() {
   return (
-    <main className="relative overflow-hidden before:pointer-events-none before:fixed before:inset-0 before:-z-10 before:opacity-45 before:[background-image:linear-gradient(#29413c_1px,transparent_1px),linear-gradient(90deg,#29413c_1px,transparent_1px)] before:[background-size:72px_72px] before:[mask-image:linear-gradient(to_bottom,black,transparent_48%)]">
+    <main className="relative overflow-hidden before:pointer-events-none before:fixed before:inset-0 before:-z-10 before:opacity-45 before:bg-[linear-gradient(var(--grid-line)_1px,transparent_1px),linear-gradient(90deg,var(--grid-line)_1px,transparent_1px)] before:bg-size-[72px_72px] before:mask-[linear-gradient(to_bottom,black,transparent_48%)]">
       <Hero />
       <Qualifications />
       <Projects />

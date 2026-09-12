@@ -26,6 +26,7 @@
     --signal: #47d9ca;
     --signal-strong: #8beddf;
     --signal-soft: #143b36;
+    --grid-line: #29413c;
   }
   [data-theme="light"] {
     --canvas: #f7f8f6;
@@ -37,6 +38,7 @@
     --signal: #007d75;
     --signal-strong: #005e58;
     --signal-soft: #d8f1ed;
+    --grid-line: #c3cfca;
     --color-canvas: #f7f8f6;
     --color-panel: #ffffff;
     --color-panel-raised: #f0f3ef;
